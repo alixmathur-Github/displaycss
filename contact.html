@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="about.html"><i class="fa fa-user"></i>About us</a>
+                <div class="sub-menu1">
+                    <ul>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Function</a></li>
+                        <li><a href="#">Biography</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="services.html"><i class="fa fa-clone"></i>Services</a>
+                <div class="sub-menu1">
+                    <ul>
+                        <li class="hover-me"><a href="#">Javascript</a><i class="fa fa-angle-right"></i>
+                            <div class="sub-menu2">
+                                <ul>
+                                    <li><a href="#">Sql</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="hover-me"><a href="#">Python</a><i class="fa fa-angle-right"></i>
+                            <div class="sub-menu2">
+                                <ul>
+                                    <li><a href="#">Nodejs</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="#">Js</a></li>
+                    </ul>
+                </div>
+
+            </li>
+
+            <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+    </div>
+    <header>
+
+    <form action="">
+        <div class="container">
+            <h1>Registration</h1>
+            <p>Please fill in this form to register with us</p>
+            <hr />
+    
+            <label for="psw"><b>First Name</b></label>
+            <input type="text" placeholder="First Name" name="fn" id="fn" required>
+    
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+            <label for="cpsw"><b>Password</b></label>
+            <input type="password" placeholder="Comfirm Password" name="cpsw" id="cpsw" required>
+    
+            <hr />
+            <button class="registerbtn" type="submit">Register</button>
+        </div>
+    </form>
+    </header>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>Developer Web Design, Copyright &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
